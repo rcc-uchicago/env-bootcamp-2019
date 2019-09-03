@@ -9,7 +9,7 @@
 #SBATCH --cpus-per-task=1
 
 # For reproducibility, add version number to "module load" call.
-module load Anaconda3/5.1.0
+module load Anaconda3/2019.03
 
 # Run the python script.
 echo "Running matrixdemo.py"
