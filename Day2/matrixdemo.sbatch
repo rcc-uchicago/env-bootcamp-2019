@@ -1,16 +1,18 @@
 #!/bin/bash
 
-# This bash script illustrates how to use the sbatch command in SLURM
-# to submit a job to the broadwl partition.
+# This bash script illustrates how to use the sbatch command in Slurm
+# to submit a job to the edu partition.
 
-#SBATCH --partition=broadwl
+#SBATCH --partition=edu
+#SBATCH --account=env_bootcamp
 #SBATCH --time=00:10:00
-#SBATCH --cpus-per-task=8
+#SBATCH --cpus-per-task=1
 
 # For reproducibility, add version number to "module load" call.
 module load Anaconda3/5.1.0
 
 # Run the python script.
 echo "Running matrixdemo.py"
-export OMP_NUM_THREADS=8
-python matrixdemo.py
+export OMP_NUM_THREADS=1
+python3 matrixdemo.py 8000 12000 > matrixdemo.out
+
