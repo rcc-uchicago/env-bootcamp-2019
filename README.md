@@ -1,7 +1,5 @@
 
 # Environmental Sciences Computational Bootcamp
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/rcc-uchicago/env_bootcamp/master?urlpath=lab)
-
 
 ## Date: Sep 3 - Sep 6
 ## Time: 9:00 - 11:30 am
@@ -20,11 +18,12 @@ To join the uchicago_envbootcamp slack channel use the invitation link:
 https://join.slack.com/t/uchicago-envbootcamp/shared_invite/enQtNzQ2NDY0NzQ0MzU2LWRlMTViZWY3MjU2YTk4ODAwOTU3OGI0YTJiZWUyZjhmNjc2OGRmOWMxYWE3ZWY1YTcyNTNjOGJmZmQ3MmFkMWY)
 
 ## Day 1: Linux & the bash shell (2.5 hours)
-* Command line interface,
+* [Connecting to Midway2](Day1/Connecting_2_midway2.pdf)
+* Command line interface
 * Manipulating files and navigating thhe file system
 * Shell scripting (Loops, logicals, etc.)
  
-## Day 2 Overview of RCC & Using HPC resources
+## Day 2 Overview of RCC & Using HPC resources (2.5 hours)
 * Basics of HPC
 * Submitting a job
 
@@ -34,7 +33,7 @@ https://join.slack.com/t/uchicago-envbootcamp/shared_invite/enQtNzQ2NDY0NzQ0MzU2
 * Creating git repository and committing the code.
 * Sharing the code using git.
 
-## Day 3: Parallel computing (multiprocessing in python)
+## Day 3: Parallel computing -- multiprocessing in python (2.5 hours)
 
 * Overview of parallelization
 * Using multiprocessing module in python
