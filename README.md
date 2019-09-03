@@ -27,13 +27,13 @@ https://join.slack.com/t/uchicago-envbootcamp/shared_invite/enQtNzQ2NDY0NzQ0MzU2
 * Basics of HPC
 * Submitting a job
 
+## Day 3: Parallel computing -- multiprocessing in python (2.5 hours)
+
+* Overview of parallelization
+* Using multiprocessing module in python
+
 ## Day 4: Code repository (2 hours)
 
 * Basic concepts.
 * Creating git repository and committing the code.
 * Sharing the code using git.
-
-## Day 3: Parallel computing -- multiprocessing in python (2.5 hours)
-
-* Overview of parallelization
-* Using multiprocessing module in python
